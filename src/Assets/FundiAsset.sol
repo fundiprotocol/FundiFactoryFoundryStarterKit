@@ -14,8 +14,7 @@ contract FundiAsset is Context {
         "ESCROW",
         "CROWDFUND",
         "PERSONAL_ACCOUNT",
-        "FINANCIAL_CONTRACT",
-        "INDEX_FUND",
+        "CONTRACT",
         "CUSTOM"
     ];
 

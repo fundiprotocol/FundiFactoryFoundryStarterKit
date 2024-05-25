@@ -11,9 +11,8 @@ contract FundiFactory is Context, ReentrancyGuard {
         TRUST,
         ESCROW,
         CROWDFUND,
-        PERSONAL_ACCOUNT,
-        FINANCIAL_CONTRACT,
-        INDEX_FUND,
+        PERSONAL,
+        CONTRACT,
         CUSTOM
     }
 
