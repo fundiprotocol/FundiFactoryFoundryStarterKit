@@ -23,7 +23,7 @@
 
 <br/>
 <p align="center">
-<img src="./img/FundiMap.jpg" width="700" alt="FundiMap">
+<img src="./img/FundiMap.jpg" width="400" alt="FundiMap">
 </p>
 <br/>
 
@@ -33,7 +33,7 @@ This repository utilizes the Fundi Factory Protocol, a protocol that tokenizes s
 
 <br/>
 <p align="center">
-<img src="./img/UnverifiedCustomFactory.jpg" width="700" alt="UnverifiedCustomFactory">
+<img src="./img/UnverifiedCustomFactory.jpg" width="400" alt="UnverifiedCustomFactory">
 </p>
 <br/>
 
