@@ -11,10 +11,10 @@
 - [Getting Started](#getting-started)
   - [Requirements](#requirements)
   - [Installation](#installation)
-  - [Build] (#build)
-  - [Test] (#test)
-  - [Deploy] (#deploy)
-- [Chainlink](#chainlnk)
+  - [Build](#build)
+  - [Test](#test)
+  - [Deploy](#deploy)
+- [Chainlink](#chainlink)
 - [Openzeppellin](#openzeppelin)
 - [What does this unlock?](#what-does-this-unlock)
 - [Disclaimer](#disclaimer)
@@ -34,8 +34,6 @@ This repository utilizes the Fundi Factory Protocol, a protocol that tokenizes s
 Check out Fundi Tokenized Factories at [Opensea](https://testnets.opensea.io/collection/fundi-factory-protocol-sepolia-1) on Base Sepolia
 
 Interact with protocol functions at : [Etherscan](https://sepolia.basescan.org/address/0x691692b88f79fada53a6f41ac2628c5f7ab2d344)
-
-<details>
 
 # The example in this repo
 
