@@ -31,7 +31,9 @@ Fundi is an open verifiable network of digital keys that tokenize validators and
 
 This repository utilizes the Fundi Factory Protocol, a protocol that tokenizes smart contract factories and can be monetized with any ERC20 cryptocurrency for minting contracts and assets. 100% of the proceeds are claimable by the owner.
 
-The keys that tokenizes factories and assets are represented by NFTs. This Factory image represents a factory key for a Custom (white) Unverified (silver) Factory
+The keys that tokenizes factories and assets are represented by NFTs.
+
+This Factory image represents a factory key for a Custom (white) Unverified (silver) Factory
 
 <br/>
 <p align="center">
@@ -43,7 +45,7 @@ This Asset image represents a asset key for an asset that was minted by a Custom
 <br/>
 
 <p align="center">
-<img src="./img/UnverifiedCustomFactory.jpg" width="700" alt="UnverifiedCustomAsset">
+<img src="./img/UnverifiedCustomAsset.jpg" width="400" alt="UnverifiedCustomAsset">
 </p>
 <br/>
 
