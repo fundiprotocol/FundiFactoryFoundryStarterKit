@@ -70,6 +70,8 @@ For `ExampleFundiFactory.sol` we are tokenizing a contract factory that mints `E
   - You'll know you did it right if you can run `node --version` and you see a response like `v16.13.0`
 - [npm](https://www.npmjs.com/get-npm)
   - You'll know you did it right if you can run `npm --version` and you see a response like `8.1.0`
+- [fundi tokens](https://sepolia.basescan.org/address/0x7891Cd6E291A79302bF47958806a9801D22feeB5)
+  - Use this faucet to get test Fundi Tokens for protocol fee(1 FUNDI per factory mint/.5 FUNDI per asset mint) you will know if you have a balance for ERC-20 0x7891Cd6E291A79302bF47958806a9801D22feeB5.
 
 ## Installation
 
@@ -133,7 +135,7 @@ Go to [Openzeppelin](https://www.openzeppelin.com/contracts) to learn more
 
 # What does this unlock?
 
-Being able to verify and tokenize ownership of contract factories, funds, protocols, business processes, or any smart contract 🤯
+Being able to verify and tokenize ownership of contract factories, funds, protocols, business processes, or any smart contract! 🤯
 
 # Disclaimer
 
