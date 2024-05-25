@@ -31,6 +31,22 @@ Fundi is an open verifiable network of digital keys that tokenize validators and
 
 This repository utilizes the Fundi Factory Protocol, a protocol that tokenizes smart contract factories and can be monetized with any ERC20 cryptocurrency for minting contracts and assets. 100% of the proceeds are claimable by the owner.
 
+<br/>
+<p align="center">
+<img src="./img/UnverifiedCustomFactory.jpg" width="700" alt="UnverifiedCustomFactory">
+</p>
+<br/>
+
+This NFT image represents a the default factory key for a Custom (white) Unverified (silver) Factory
+
+<br/>
+<p align="center">
+<img src="./img/UnverifiedCustomFactory.jpg" width="700" alt="UnverifiedCustomAsset">
+</p>
+<br/>
+
+This NFT image represents a the default asset key for an asset that was minted by a Custom (white) Unverified (silver) Factory
+
 Check out Fundi Tokenized Factories at [Opensea](https://testnets.opensea.io/collection/fundi-factory-protocol-sepolia-1) on Base Sepolia
 
 Interact with protocol functions at : [Etherscan](https://sepolia.basescan.org/address/0x691692b88f79fada53a6f41ac2628c5f7ab2d344)
@@ -71,7 +87,7 @@ For `ExampleFundiFactory.sol` we are tokenizing a contract factory that mints `E
 - [npm](https://www.npmjs.com/get-npm)
   - You'll know you did it right if you can run `npm --version` and you see a response like `8.1.0`
 - [fundi tokens](https://sepolia.basescan.org/address/0x7891Cd6E291A79302bF47958806a9801D22feeB5)
-  - Use this faucet to get test Fundi Tokens for protocol fee(1 FUNDI per factory mint/.5 FUNDI per asset mint) you will know if you have a balance for ERC-20 0x7891Cd6E291A79302bF47958806a9801D22feeB5.
+  - Use this test faucet to get FUNDI for minting fee(1 FUNDI per factory mint/.5 FUNDI per asset mint) you will know if you have a balance for ERC-20 address: `0x7891Cd6E291A79302bF47958806a9801D22feeB5`.
 
 ## Installation
 
@@ -106,8 +122,9 @@ cd FundiFactoryFoundryKit
     address(fundiToken), <-fundi token
     0 <-no fee
 )`
-4. Test deployment using `forge script scripts/DeployFundiFactory.s.sol --rpc-url YOUR_RPC_URL`
-5. View your Factory on NFT Marketplaces at the Fundi Factory Protocol address
+4. Make sure your wallet has at least 1 FUNDI for factory mint and .5 for asset mint
+5. Test deployment using `forge script scripts/DeployFundiFactory.s.sol --rpc-url YOUR_RPC_URL`
+6. View your Factory on NFT Marketplaces at the Fundi Factory Protocol address
 
 # Chainlink
 
