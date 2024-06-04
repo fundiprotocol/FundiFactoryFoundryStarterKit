@@ -88,8 +88,14 @@ For `ExampleFundiFactory.sol` we are tokenizing a contract factory that mints `E
   - You'll know you did it right if you can run `node --version` and you see a response like `v16.13.0`
 - [npm](https://www.npmjs.com/get-npm)
   - You'll know you did it right if you can run `npm --version` and you see a response like `8.1.0`
-- [fundi tokens](https://sepolia.basescan.org/address/0x7891Cd6E291A79302bF47958806a9801D22feeB5)
+- [fundi faucet](https://sepolia.basescan.org/address/0x9979150f5FAbeAbf7d4DBa38740514AB22398B8E)
   - Use this test faucet to get FUNDI for minting fee(1 FUNDI per factory mint/.5 FUNDI per asset mint) you will know if you have a balance for ERC-20 address: `0x7891Cd6E291A79302bF47958806a9801D22feeB5`.
+  - You can request FUNDI tokens once every 24 hours for 5 FUNDI by connecting wallet and calling the `requestTokens` function below.
+  <br/>
+  <p align="center">
+  <img src="./img/Faucet.jpg" width="400" alt="FundiFaucet">
+  </p>
+  <br/>
 
 ## Installation
 
