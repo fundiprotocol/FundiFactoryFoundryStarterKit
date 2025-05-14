@@ -1,8 +1,20 @@
-// SPDX-License-Identifier: MIT
+// SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.17;
 
 import {Base64} from "@openzeppelin/contracts/utils/Base64.sol";
 import "@openzeppelin/contracts/utils/Strings.sol";
+
+/**
+ * @title FundiAssetProtocolMetadata
+ * @dev Copyright (c) 2025 Fundi Labs LLC All rights reserved.
+ *
+ * This source code is proprietary and confidential.
+ * Unauthorized copying, modification, distribution, or use of this file,
+ * via any medium, is strictly prohibited.
+ *
+ * For licensing inquiries, visit https://fundilabs.io
+ *
+ * */
 
 contract FundiAssetProtocolMetadata {
     struct FactoryMetadata {

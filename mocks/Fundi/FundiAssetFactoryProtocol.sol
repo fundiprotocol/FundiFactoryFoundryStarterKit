@@ -1,9 +1,21 @@
-//SPDX-License-Identifier: MIT
+//SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.17;
 import {ERC721} from "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
 import {IFundiProtocol} from "../../src/Interfaces/IFundiProtocol.sol";
 import {FundiProtocol} from "./FundiProtocol.sol";
+
+/**
+ * @title FundiAssetFactoryProtocol
+ * @dev Copyright (c) 2025 Fundi Labs LLC All rights reserved.
+ *
+ * This source code is proprietary and confidential.
+ * Unauthorized copying, modification, distribution, or use of this file,
+ * via any medium, is strictly prohibited.
+ *
+ * For licensing inquiries, visit https://fundilabs.io
+ *
+ * */
 
 contract FundiAssetFactoryProtocol is ERC721, FundiProtocol {
     using SafeERC20 for IERC20;
@@ -160,13 +172,7 @@ contract FundiAssetFactoryProtocol is ERC721, FundiProtocol {
         address _owner
     )
         ERC721("Fundi Factory Protocol Mock", "FundiFactoryMock")
-        FundiProtocol(
-            fundiToken,
-            fundiValidator,
-            _contractURI,
-            factoryDao,
-            _owner
-        )
+        FundiProtocol(fundiToken, fundiValidator, factoryDao, _contractURI)
     {
         i_metadataAddress = metadataAddress;
         s_tokenCounter = 0;
