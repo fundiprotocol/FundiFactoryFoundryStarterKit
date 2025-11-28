@@ -88,7 +88,7 @@ For `ExampleFundiFactory.sol` we are tokenizing a contract factory that mints `E
   - You'll know you did it right if you can run `node --version` and you see a response like `v16.13.0`
 - [npm](https://www.npmjs.com/get-npm)
   - You'll know you did it right if you can run `npm --version` and you see a response like `8.1.0`
-- [buy Fundi tokens](https://fundilabs.io/getstarted)
+- [Buy Fundi tokens for transaction](https://fundilabs.io/getstarted)
 
   - Buy FUNDI here or at Uniswap trading pool on base https://app.uniswap.org/explore/tokens/base/0x0d8d726d0614fd993fc78946ae9d54fd4da6d2fe?inputCurrency=NATIVE (1 FUNDI per factory mint/.5 FUNDI per asset mint) you will know if you have a balance for ERC-20 address: `0x0d8D726d0614FD993fc78946ae9d54Fd4DA6D2FE`.
 
