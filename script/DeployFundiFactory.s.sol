@@ -10,9 +10,9 @@ import "../mocks/Fundi/FundiAssetFactoryProtocol.sol";
 
 contract DeployFundiFactory is Script {
     FundiToken public fundiToken =
-        FundiToken(0xA2280e562FC1AFaba579b1c6640Fa526E90B4210); //Base Sepolia
+        FundiToken(0x0d8D726d0614FD993fc78946ae9d54Fd4DA6D2FE); //Base
     FundiAssetFactoryProtocol public fundiProtocol =
-        FundiAssetFactoryProtocol(0xaA034135B32B827b77a2342e714bf12F57Ce81ed);
+        FundiAssetFactoryProtocol(0xd38Ec3705e7DC81248a07531A29C0ad66eAE3cd3);
 
     function run()
         external

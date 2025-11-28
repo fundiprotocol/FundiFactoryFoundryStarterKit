@@ -1,4 +1,4 @@
-> **IMPORTANT:** \_This repo is a work in progress, and contracts only accessible on Base Sepolia until mainnet deployment. Use with your own risk
+> **IMPORTANT:** \_This repo is a work in progress, and contracts only accessible on Base until cross chain deployments. Use with your own risk
 
 # Fundi Factory Overview
 
@@ -49,9 +49,9 @@ This Asset image represents a asset key for an asset that was minted by a Custom
 </p>
 <br/>
 
-Check out Fundi Tokenized Factories at [Opensea](https://testnets.opensea.io/collection/fundi-factory-protocol-sepolia-7) on Base Sepolia
+Check out Fundi Tokenized Factories at [Opensea](https://opensea.io/collection/fundi-app-factory-protocol-base) on Base
 
-Interact with protocol functions at : [Etherscan](https://sepolia.basescan.org/address/0xaa034135b32b827b77a2342e714bf12f57ce81ed)
+Interact with protocol functions at : [Etherscan](https://basescan.org/address/0xd38Ec3705e7DC81248a07531A29C0ad66eAE3cd3)
 
 # The example in this repo
 
@@ -88,13 +88,10 @@ For `ExampleFundiFactory.sol` we are tokenizing a contract factory that mints `E
   - You'll know you did it right if you can run `node --version` and you see a response like `v16.13.0`
 - [npm](https://www.npmjs.com/get-npm)
   - You'll know you did it right if you can run `npm --version` and you see a response like `8.1.0`
-- [fundi faucet](https://sepolia.basescan.org/address/0xf9b8ba42fdb09daeca2a7c4d5cd7f6ede37fb111#writeContract)
-  - Use this test faucet to get FUNDI for minting fee(1 FUNDI per factory mint/.5 FUNDI per asset mint) you will know if you have a balance for ERC-20 address: `0xA2280e562FC1AFaba579b1c6640Fa526E90B4210`.
-  - You can request FUNDI tokens once every 24 hours for 5 FUNDI by connecting wallet and calling the `requestTokens` function below.
-  <br/>
-  <p align="center">
-  <img src="./img/Faucet.jpg" width="400" alt="FundiFaucet">
-  </p>
+- [buy Fundi tokens](https://fundilabs.io/getstarted)
+
+  - Buy FUNDI here or at Uniswap trading pool on base https://app.uniswap.org/explore/tokens/base/0x0d8d726d0614fd993fc78946ae9d54fd4da6d2fe?inputCurrency=NATIVE (1 FUNDI per factory mint/.5 FUNDI per asset mint) you will know if you have a balance for ERC-20 address: `0x0d8D726d0614FD993fc78946ae9d54Fd4DA6D2FE`.
+
   <br/>
 
 ## Installation
